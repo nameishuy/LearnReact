@@ -71,22 +71,29 @@ h6 {
   }
   .MySkills-Details {
     width: 100% !important;
-    justify-content: space-between;
+    justify-content: space-between !important;
   }
 }
 
 @media screen and (max-width: 415px) {
-  .SkillsAndProjects {
+  .Header-Container,
+  .Body-Container {
+    width: 90% !important;
+  }
+  .SkillsAndProjects,
+  .MySkills-Details {
     width: 100% !important;
   }
   .MySkills,
   .MyProjects {
     width: 100px !important;
   }
+  .MySkills-Details {
+    margin-top: 20px !important;
+  }
   .MySkill {
-    min-width: 80px;
-    width: 80px !important;
-    margin: 10px;
-    padding: 10px;
+    min-width: 90px !important;
+    margin: 10px 0 !important;
+    padding: 10px !important;
   }
 }
