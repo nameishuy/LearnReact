@@ -1,0 +1,78 @@
+.Header-Container {
+  width: 80%;
+  margin: 0 auto;
+}
+.ChangeTheme {
+  position: absolute;
+  top: 50px;
+  right: 50px;
+  font-size: 25px;
+  cursor: pointer;
+}
+.Dark,
+.Light {
+  cursor: pointer;
+}
+
+.AboutMe {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 100px;
+  position: relative;
+}
+.AboutMe-MyAvatar {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+  height: 150px;
+}
+.AboutMe-MyAvatar::before {
+  position: absolute;
+  content: "";
+  width: 150px;
+  height: 150px;
+  top: 0;
+  left: 0;
+  border-radius: 10rem;
+  background-color: transparent;
+  animation: routateAvatar 2s linear infinite forwards;
+}
+.AboutMe-MyAvatar img {
+  width: 140px;
+  height: 140px;
+  border-radius: 10rem;
+  z-index: 10;
+  user-select: none;
+}
+
+.AboutMe-MyName {
+  margin-top: 20px;
+  font-size: 25px;
+  font-weight: 600;
+}
+.AboutMe-MyPosition {
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.AboutMe-MySocials {
+  display: flex;
+  margin-top: 10px;
+  justify-content: space-around;
+}
+.AboutMe-MySocial ion-icon {
+  font-size: 28px;
+  margin: 10px 5px;
+  cursor: pointer;
+  transition: 1s;
+}
+.iconDark {
+  color: rgba(22, 22, 22, 0.651);
+}
+.iconLight {
+  color: white;
+}

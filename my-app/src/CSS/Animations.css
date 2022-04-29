@@ -1,0 +1,14 @@
+@keyframes routateAvatar {
+  0%,
+  100% {
+    transform: rotate(360deg);
+    box-shadow: 0 0 0 5px #6dd5fa;
+  }
+
+  25% {
+    box-shadow: 0 0 0 5px #c471ed;
+  }
+  50% {
+    box-shadow: 0 0 0 5px #f64f59;
+  }
+}
