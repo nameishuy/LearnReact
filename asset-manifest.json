@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/LearnReact/static/css/main.42abba87.css",
-    "main.js": "/LearnReact/static/js/main.527908ed.js",
+    "main.css": "/LearnReact/static/css/main.5356d57c.css",
+    "main.js": "/LearnReact/static/js/main.8fefdeaf.js",
     "static/js/787.28cb0dcd.chunk.js": "/LearnReact/static/js/787.28cb0dcd.chunk.js",
+    "static/media/avatar_gif.gif": "/LearnReact/static/media/avatar_gif.e9585309f1881ec60f4e.gif",
     "index.html": "/LearnReact/index.html",
-    "main.42abba87.css.map": "/LearnReact/static/css/main.42abba87.css.map",
-    "main.527908ed.js.map": "/LearnReact/static/js/main.527908ed.js.map",
+    "main.5356d57c.css.map": "/LearnReact/static/css/main.5356d57c.css.map",
+    "main.8fefdeaf.js.map": "/LearnReact/static/js/main.8fefdeaf.js.map",
     "787.28cb0dcd.chunk.js.map": "/LearnReact/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.42abba87.css",
-    "static/js/main.527908ed.js"
+    "static/css/main.5356d57c.css",
+    "static/js/main.8fefdeaf.js"
   ]
 }
