@@ -114,6 +114,11 @@ h6 {
   .Body-Container {
     width: 90% !important;
   }
+  .ChangeTheme {
+    top: 30px !important;
+    right: 30px !important;
+    cursor: pointer !important;
+  }
   .SkillsAndProjects,
   .MySkills-Details {
     width: 100% !important;

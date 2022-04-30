@@ -67,7 +67,9 @@ const BodyComp = (props) => {
                 backgroundColor: "white",
                 overflow: "hidden",
               }}
-              className={`${props.background ? "" : "LightTheme"}`}
+              className={`MyProjectContainer ${
+                props.background ? "" : "LightTheme"
+              }`}
             >
               <div className="MyProject" key={project.id}>
                 <div className="MyProject_PictureContainer">

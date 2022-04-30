@@ -65,14 +65,15 @@
   justify-content: space-around;
   align-items: center;
 }
-
+.MyProjectContainer {
+  transition: 0.7s;
+}
 .MyProject {
   width: 250px;
   display: flex;
   flex-flow: column nowrap;
   align-items: center;
   cursor: pointer;
-  transition: 0.7s;
 }
 
 .MyProject_PictureContainer {
@@ -85,10 +86,10 @@
   height: 100%;
   transition: transform 1s;
 }
-.MyProject:hover > .MyProject_PictureContainer img {
+.MyProjectContainer:hover > .MyProject img {
   transform: scale(1.5) !important;
 }
-.MyProject:hover {
+.MyProjectContainer:hover {
   transform: translateY(-10px);
 }
 .MyProject_ContentContainer {
