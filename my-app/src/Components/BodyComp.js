@@ -5,7 +5,6 @@ import { Link } from "react-router-dom";
 const BodyComp = (props) => {
   const [skillsTab, setSkillsTab] = useState(false);
   const changeTab = () => setSkillsTab(!skillsTab);
-  console.log(skillsTab);
   return (
     <div className="Body-Container">
       <div className="SkillsAndProjects">

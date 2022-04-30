@@ -14,7 +14,7 @@ const MyResumeComp = () => {
           {mineData.education.map((school) => (
             <div className="MySchool">
               <div>
-                <ion-icon name="briefcase-outline"></ion-icon>
+                <ion-icon name="school-outline"></ion-icon>
               </div>
               <div className="MySchool-Content">
                 <span>{school.schoolName}</span>

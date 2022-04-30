@@ -1,9 +1,9 @@
 import avatar from "../Images/avatar.jpg";
-
+import avatar_gif from "../Images/avatar_gif.gif";
 const mineData = {
   name: "Đông Gia Huy",
   dob: "10/11/2000",
-  avatar: avatar,
+  avatar: avatar_gif || avatar,
   position: "Front-end Developer",
   description:
     "Hi! I'm a 4th years student of HUTECH, I love to work with the beauty UI and programing so that's why I want to be a Front-end Developer. And more to become a FullStack Developer in several years later.",
@@ -46,12 +46,16 @@ const mineData = {
       nameProject: "Selling Book Website - MBook",
       picProject:
         "https://images.unsplash.com/photo-1476275466078-4007374efbbe?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2029&q=80",
+      content: {
+        hello: "Hello",
+      },
     },
     {
       id: 2,
       nameProject: "Recipes App - WeCooked",
       picProject:
         "https://images.unsplash.com/photo-1490645935967-10de6ba17061?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1153&q=80",
+      content: {},
     },
   ],
 };

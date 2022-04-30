@@ -12,6 +12,7 @@
 .Dark,
 .Light {
   cursor: pointer;
+  transition: 3s;
 }
 
 .AboutMe {
