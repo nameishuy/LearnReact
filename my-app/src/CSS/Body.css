@@ -55,3 +55,48 @@
   font-size: 17px !important;
   margin-right: 5px;
 }
+
+.MyProjects-Details {
+  width: 70%;
+  margin: 50px auto 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.MyProject {
+  width: 250px;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  cursor: pointer;
+  transition: 0.7s;
+}
+
+.MyProject_PictureContainer {
+  width: 100%;
+  height: 180px;
+  overflow: hidden;
+}
+.MyProject_PictureContainer img {
+  width: 100%;
+  height: 100%;
+  transition: transform 1s;
+}
+.MyProject:hover > .MyProject_PictureContainer img {
+  transform: scale(1.5) !important;
+}
+.MyProject:hover {
+  transform: translateY(-10px);
+}
+.MyProject_ContentContainer {
+  font-size: 15px;
+  margin: 10px 0;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  word-break: break-word;
+}

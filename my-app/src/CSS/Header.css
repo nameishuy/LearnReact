@@ -46,13 +46,22 @@
   height: 140px;
   border-radius: 10rem;
   z-index: 10;
-  user-select: none;
 }
 
 .AboutMe-MyName {
   margin-top: 20px;
   font-size: 25px;
   font-weight: 600;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.AboutMe-MyName ion-icon {
+  font-size: 18px;
+  color: rgb(0, 132, 255);
+  font-weight: bold;
+  position: absolute;
+  right: -20px;
 }
 .AboutMe-MyPosition {
   font-size: 15px;

@@ -23,7 +23,10 @@ const HeaderComp = (props) => {
         <div className="AboutMe-MyAvatar">
           <img src={mineData.avatar} alt="My Avatar" />
         </div>
-        <div className="AboutMe-MyName">{mineData.name}</div>
+        <div className="AboutMe-MyName">
+          {mineData.name}
+          <ion-icon name="shield-checkmark-outline"></ion-icon>
+        </div>
         <div className="AboutMe-MyPosition">{mineData.position}</div>
         <div className="AboutMe-MySocials">
           {mineData.socials.map((social) => (

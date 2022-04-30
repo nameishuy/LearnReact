@@ -1,0 +1,18 @@
+.SorryAnnouncementContainer {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  min-height: 50vh;
+}
+
+.SorryAnnouncementContainer img {
+  border-radius: 10rem;
+  width: 250px;
+  height: 250px;
+}
+.SorryAnnouncementContainer span {
+  font-weight: 700;
+  margin: 50px 0 0 0;
+  text-align: center;
+}

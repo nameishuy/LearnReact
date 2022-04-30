@@ -19,7 +19,7 @@ function App() {
       id="container"
     >
       <HeaderComp background={bg} setBg={HaveBackground}></HeaderComp>
-      <BodyComp></BodyComp>
+      <BodyComp background={bg} setBg={HaveBackground}></BodyComp>
     </div>
   );
 }

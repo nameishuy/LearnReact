@@ -69,9 +69,13 @@ h6 {
   .SkillsAndProjects {
     width: 80% !important;
   }
-  .MySkills-Details {
+  .MySkills-Details,
+  .MyProjects-Details {
     width: 100% !important;
     justify-content: space-between !important;
+  }
+  .MyProjects-Details {
+    justify-content: space-around !important;
   }
 }
 
@@ -95,5 +99,14 @@ h6 {
     min-width: 90px !important;
     margin: 10px 0 !important;
     padding: 10px !important;
+  }
+  .MyProject {
+    width: 150px !important;
+  }
+  .MyProject_PictureContainer {
+    height: 140px !important;
+  }
+  .MyProject_ContentContainer {
+    margin: 10px !important;
   }
 }

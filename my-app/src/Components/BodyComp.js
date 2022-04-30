@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 import "../CSS/Body.css";
 import { deleteClass, addClass, mineData } from "../Data/data";
-const BodyComp = () => {
+import { Link } from "react-router-dom";
+const BodyComp = (props) => {
   const [skillsTab, setSkillsTab] = useState(false);
   const changeTab = () => setSkillsTab(!skillsTab);
   console.log(skillsTab);
@@ -54,7 +55,31 @@ const BodyComp = () => {
           })}
         </div>
       ) : (
-        <div className="MyProjects-Details">My Project</div>
+        <div className="MyProjects-Details">
+          {mineData.projects.map((project) => (
+            <Link
+              to={`/LearnReact/Project/${project.id}`}
+              style={{
+                textDecoration: "none",
+                color: "black",
+                borderRadius: "0.5rem",
+                boxShadow: "0 0 5px 4px rgba(218, 216, 216, 0.685)",
+                backgroundColor: "white",
+                overflow: "hidden",
+              }}
+              className={`${props.background ? "" : "LightTheme"}`}
+            >
+              <div className="MyProject" key={project.id}>
+                <div className="MyProject_PictureContainer">
+                  <img src={project.picProject} alt="Ảnh Đồ Án Tượng Trưng" />
+                </div>
+                <span className="MyProject_ContentContainer">
+                  {project.nameProject}
+                </span>
+              </div>
+            </Link>
+          ))}
+        </div>
       )}
     </div>
   );
