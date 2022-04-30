@@ -1,6 +1,7 @@
 .Body-Container {
   width: 80%;
-  margin: 0 auto;
+  margin: 0 auto 200px auto;
+  min-height: 50vh;
 }
 
 .SkillsAndProjects {

@@ -42,11 +42,33 @@ h5,
 h6 {
   overflow-wrap: break-word;
 }
+/* Custom Scrollbar*/
+/* width */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgba(46, 43, 43, 0.63);
+  box-shadow: 0 0 50px 10px black !important;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #b30000;
+}
 
 .Container {
   width: 1268px;
   margin: 0 auto;
-  min-height: 100vh;
+  min-height: 150vh;
   position: relative;
   transition: 1s;
 }
@@ -66,7 +88,8 @@ h6 {
   }
   .Header-Container,
   .Body-Container,
-  .SkillsAndProjects {
+  .SkillsAndProjects,
+  .MyResumeContainer {
     width: 80% !important;
   }
   .MySkills-Details,
@@ -76,6 +99,13 @@ h6 {
   }
   .MyProjects-Details {
     justify-content: space-around !important;
+  }
+  .MyResume-Education_MySchoolsDetails {
+    justify-content: space-between !important;
+  }
+  .MySchool {
+    width: 200px !important;
+    height: 150px !important;
   }
 }
 
@@ -108,5 +138,22 @@ h6 {
   }
   .MyProject_ContentContainer {
     margin: 10px !important;
+    font-size: 13px !important;
+  }
+  .MyResumeContainer {
+    width: 100% !important;
+  }
+  .MyResumeContainer h1 {
+    font-size: 16px !important;
+  }
+  .MyResumeContainer span {
+    font-size: 13px !important;
+  }
+  .MyResume-Education_MySchoolsDetails {
+    justify-content: space-around !important;
+  }
+  .MySchool {
+    width: 250px !important;
+    height: 100px !important;
   }
 }

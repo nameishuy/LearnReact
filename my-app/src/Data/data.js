@@ -5,6 +5,8 @@ const mineData = {
   dob: "10/11/2000",
   avatar: avatar,
   position: "Front-end Developer",
+  description:
+    "Hi! I'm a 4th years student of HUTECH, I love to work with the beauty UI and programing so that's why I want to be a Front-end Developer. And more to become a FullStack Developer in several years later.",
   socials: [
     {
       icon: <ion-icon name="logo-facebook"></ion-icon>,
@@ -13,6 +15,28 @@ const mineData = {
     {
       icon: <ion-icon name="logo-github"></ion-icon>,
       link: "https://github.com/nameishuy",
+    },
+  ],
+  education: [
+    {
+      schoolName: "HUTECH",
+      schoolYear: "2018 - Now",
+    },
+    {
+      schoolName: "NGUYEN TRAI HIGH SCHOOL",
+      schoolYear: "2015 - 2018",
+    },
+    {
+      schoolName: "KHANH HOI A SECONDARY SCHOOL",
+      schoolYear: "2011 - 2015",
+    },
+    {
+      schoolName: "TANG BAT HO B PRIMARY SCHOOL",
+      schoolYear: "2006 - 2010",
+    },
+    {
+      schoolName: "NGUYEN TRONG TUYEN PRIMARY SCHOOL",
+      schoolYear: "9/2005 - 2006",
     },
   ],
   skills: ["HTML5", "CSS3", "Javascript", "Responsive", "Angular", "ReactJS"],

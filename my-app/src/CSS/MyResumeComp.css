@@ -1,0 +1,43 @@
+.MyResumeContainer {
+  width: 70%;
+  margin: 0 auto;
+}
+.MyResumeContainer h1 {
+  font-size: 18px;
+  margin: 20px 0;
+}
+.MyResumeContainer span {
+  font-size: 15px;
+}
+.MyResume-Education_MySchoolsDetails {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  min-height: 200px;
+}
+.MySchool {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 30px 10px;
+  width: 250px;
+  height: 100px;
+  padding: 10px 20px;
+  box-shadow: 0 0 5px 4px rgba(218, 216, 216, 0.685);
+  border-radius: 0.5rem;
+}
+.MySchool ion-icon {
+  margin-right: 25px;
+  font-size: 25px;
+}
+.MySchool-Content {
+  display: flex;
+  flex-flow: column nowrap;
+}
+.MySchool-Content span:nth-child(1) {
+  font-weight: 600;
+}
+.MySchool-Content span:nth-child(2) {
+  font-size: 12px;
+}

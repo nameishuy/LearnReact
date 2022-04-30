@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "../CSS/Header.css";
 import { mineData } from "../Data/data";
+import MyResumeComp from "./MyResumeComp";
 const HeaderComp = (props) => {
   // const [theme, setTheme] = useState(false);
   const bg = props.background;
@@ -38,6 +39,7 @@ const HeaderComp = (props) => {
           ))}
         </div>
       </div>
+      <MyResumeComp></MyResumeComp>
     </div>
   );
 };
